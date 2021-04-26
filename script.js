@@ -19,7 +19,7 @@ const botao = document.querySelector('#Adicionar');
             });
 
             window.addEventListener('DOMContentLoaded', () => {
-                JSON.parse(localStorage.getItem('adicionar')).forEach((el) => {
+                ;JSON.parse(localStorage.getItem('adicionar')).forEach((el) => {
                     list.innerHTML += `
     <li>
         ${el}
