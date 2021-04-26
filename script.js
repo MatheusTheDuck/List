@@ -12,7 +12,7 @@ const botao = document.querySelector('#Adicionar');
                 localStorage.setItem('adicionar', JSON.stringify(inf));
                 let items = JSON.parse(localStorage.getItem('adicionar'));
 
-                list.innerHTML += `<li>
+                list.innerHTML += `<li> <input type="checkbox">
             ${texto.value}
             </li>`;
                 texto.value = '';
