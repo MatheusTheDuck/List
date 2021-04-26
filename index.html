@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista DE Tarefas</title>
+    <link href="./style.css" rel="stylesheet">
+
+    <body>
+
+        <header class="section3">
+            <div class="section1">
+                <p>Lista de Tarafas</p>
+
+            </div>
+        </header>
+
+        <section id=tf>
+
+
+            <input id="item" type="text" placeholder="Sua Tarefa">
+            <button id="Adicionar">adicionar</button>
+            <button id="remover">Remover</button>
+
+
+
+
+
+            <ul id="list">
+
+            </ul>
+
+            </div>
+        </section>
+
+
+        <!-- <script>
+            const botao = document.querySelector('#Adicionar');
+            const texto = document.querySelector('#item');
+            const list = document.querySelector('#list');
+            const remover = document.querySelector('#remover');
+
+
+            botao.addEventListener('click', () => {
+                let inf = JSON.parse(localStorage.getItem('adicionar')) || [];
+
+                inf.push(texto.value);
+                localStorage.setItem('adicionar', JSON.stringify(inf));
+                let items = JSON.parse(localStorage.getItem('adicionar'));
+
+                list.innerHTML += `<li>
+            ${texto.value}
+            </li>`;
+                texto.value = '';
+            });
+
+            window.addEventListener('DOMContentLoaded', () => {
+                JSON.parse(localStorage.getItem('adicionar')).forEach((el) => {
+                    list.innerHTML += `
+    <li>
+        ${el}
+    </li>
+`;
+                });
+            });
+            remover.addEventListener('click', () => {
+                localStorage.clear();
+                list.innerHTML = '';
+
+                texto.value = '';
+            });
+        </script> -->
+
+
+    </body>
+
+ <script src="script.js "></script>
+
+</html>

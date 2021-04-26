@@ -1,0 +1,120 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: #979906a4;
+    }
+    
+    .section1 {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 880;
+        background-color: #979906a4;
+        padding-top: 55px;
+        padding-bottom: 140px;
+        padding-left: 90px;
+        padding-right: 90px;
+        color: #ffffff;
+        margin: auto;
+        text-align: center;
+        font-size: 45px;
+    }
+    
+    .section3 {
+        background-image: url('./assets/agr.jpg');
+        height: 200px;
+        background-attachment: local;
+        background-size: cover;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    
+    p {
+        background-color: rgba(255, 255, 255, 0);
+    }
+    
+    #tf {
+        text-align: center;
+        margin-top: 2m;
+        padding: 10px;
+    }
+    
+    input {
+        font-size: 16px;
+        width: 299px;
+        box-sizing: border-box;
+        padding: 15px;
+        border: none;
+        margin-bottom: 10px;
+        background-color: #ffffff;
+        color: #000000;
+    }
+    
+    #Adicionar {
+        display: inline-block;
+        padding: 15px;
+        width: 90px;
+        margin-top: 5px;
+        background-color: rgb(68, 67, 39);
+        border: 1px solid rgba(255, 255, 255, 0.281);
+        font-weight: bold;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+    }
+    
+    #remover {
+        display: inline-block;
+        padding: 15px;
+        width: 90px;
+        margin-top: 5px;
+        background-color: rgb(68, 67, 39);
+        border: 1px solid rgba(255, 255, 255, 0.281);
+        font-weight: bold;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .limpar {
+        display: inline-block;
+        padding: 15px;
+        width: 70px;
+        margin-top: 5px;
+        background-color: rgb(68, 67, 39);
+        border: 1px solid rgba(255, 255, 255, 0.281);
+        font-weight: bold;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+    }
+    
+    #style {
+        /* margin: 0;
+    padding: 0;
+    border: 0; */
+        font-family: "Roboto", sans-serif;
+        box-sizing: border-box;
+        text-shadow: 1px 1px 1px #0000005d;
+    }
+    
+    .tasks {
+        /* list-style: none; */
+        width: 100%;
+        height: 100vh;
+        font-family: "Roboto", sans-serif;
+        box-sizing: border-box;
+        text-shadow: 1px 1px 1px #0000005d;
+    }
+    
+    #list {
+        background-color: aliceblue;
+        border: 1px solid rgb(207, 202, 202);
+        font-size: 22px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    li{
+        background-color: rgba(92, 58, 25, 0.555);
+        border: 1px solid rgb(207, 202, 202);
+
+
+    }
